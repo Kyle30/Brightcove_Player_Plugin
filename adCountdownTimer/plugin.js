@@ -10,7 +10,6 @@ videojs.plugin('adCountDownTimer', function(){
 		countdownTimer = setInterval(function (){
 			timeRemaining = player.ima3.adsManager.getRemainingTime();
 			document.getElementById('timeRemaining').innerHTML = Math.ceil(timeRemaining);
-			console.log('剩餘時間: ' +　timeRemaining);
 		}, 1000);
 	});
 	player.on('ads-ad-ended', function(){
