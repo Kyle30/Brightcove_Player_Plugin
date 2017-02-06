@@ -6,6 +6,7 @@ videojs.plugin('adCountDownTimer', function(){
 		document.getElementById('ad-overlay').style.fontSize = '0.8em';
 		document.getElementById('ad-overlay').style.color = 'black';
 		document.getElementById('ad-overlay').style.zIndex = 999;
+		document.getElementById('ad-overlay').style.fontWeight = 600;
 		countdownTimer = setInterval(function (){
 			timeRemaining = player.ima3.adsManager.getRemainingTime();
 			document.getElementById('timeRemaining').innerHTML = Math.floor(timeRemaining);
