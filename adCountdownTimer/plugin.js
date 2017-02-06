@@ -9,7 +9,7 @@ videojs.plugin('adCountDownTimer', function(){
 		document.getElementById('ad-overlay').style.fontWeight = 600;
 		countdownTimer = setInterval(function (){
 			timeRemaining = player.ima3.adsManager.getRemainingTime();
-			document.getElementById('timeRemaining').innerHTML = Math.floor(timeRemaining);
+			document.getElementById('timeRemaining').innerHTML = Math.ceil(timeRemaining);
 			console.log('剩餘時間: ' +　timeRemaining);
 		}, 1000);
 	});
