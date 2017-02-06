@@ -8,8 +8,7 @@ videojs.plugin('adCountDownTimer', function(){
 		document.getElementById('ad-overlay').style.zIndex = 999;
 		countdownTimer = setInterval(function (){
 			timeRemaining = player.ima3.adsManager.getRemainingTime();
-			var ceilTime = Math.ceil(timeRemaining);
-			document.getElementById('timeRemaining').innerHTML = ceilTime;
+			document.getElementById('timeRemaining').innerHTML = Math.round(timeRemaining);
 			console.log('剩餘時間: ' +　timeRemaining);
 		}, 1000);
 	});
