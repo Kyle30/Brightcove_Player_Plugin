@@ -3,7 +3,7 @@ videojs.plugin('adCountDownTimer', function(){
 	var timeRemaining;
 	var countdownTimer;
 	player.on('ads-ad-started', function(){
-		document.getElementById('ad-overlay').style.fontSize = '0.8em';
+		document.getElementById('ad-overlay').style.fontSize = '1.2em';
 		document.getElementById('ad-overlay').style.color = 'black';
 		document.getElementById('ad-overlay').style.zIndex = 999;
 		document.getElementById('ad-overlay').style.fontWeight = 600;
