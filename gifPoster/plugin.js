@@ -1,4 +1,4 @@
-videojs.plugin('gifDev',function(options){
+videojs.plugin('gifPoster',function(options){
 	var player = this;
 	player.one('loadstart',function(){
 		var vjsPoster = document.getElementsByClassName('vjs-poster');
