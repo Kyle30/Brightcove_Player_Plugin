@@ -1,7 +1,7 @@
 videojs.plugin('gifPoster',function(options){
 	var player = this;
 	player.one('loadstart',function(){
-		var vjsPoster = document.getElementsByClassName('vjs-poster');
+		var vjsPoster = document.getElementsByClassName('vjs-poster')[0];
 // 		remove - Original Poster
 		vjsPoster.style = '';
 // 		append - new Poster
