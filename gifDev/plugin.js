@@ -8,6 +8,6 @@ videojs.plugin('gifDev',function(options){
 		var gifImg = document.createElement('img');
 		gifImg.style = options.style;
 		gifImg.src = options.src;
-		vjsPoster.append(gifImg);
+		vjsPoster.appendChild(gifImg);
 	});
 });
