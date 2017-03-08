@@ -29,7 +29,7 @@ overlay
       "content": "<div id='ad-overlay' style='dispaly:inline; font-family: Microsoft JhengHei;'>剩餘時間: <div id='timeRemaining' style='display:inline'></div>秒</div>",
       "end": "ads-ad-ended",
       "start": "ads-ad-started",
-      "align": "top-right"
+      "align": "bottom-right"
     }
   ]
 }
