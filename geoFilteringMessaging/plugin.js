@@ -7,7 +7,7 @@ videojs.plugin('geoFilteringMessaging', function (options) {
             if (specificError !== 'undefined' & specificError.error_subcode == "CLIENT_GEO") {
                 player.error({
                     code: options.code,
-                    headline: options.headline;
+                    headline: options.headline
                 });
             };
         };
