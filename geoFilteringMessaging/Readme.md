@@ -18,8 +18,6 @@ geoFilteringMessaging
 ## Deverlopment
 HTML
 ```HTML
-...
-<body>
 <video id="myPlayerID" data-video-id="video_id" data-account="account_id" data-player="player_id" data-embed="default" data-application-id class="video-js" controls style="width: 100%; height: 100%; position: absolute; top: 0px; bottom: 0px; right: 0px; left: 0px;"></video>
 <script src="//players.brightcove.net/{{account_id}}/{{player_id}}_default/index.min.js"></script>
 <script>
@@ -36,8 +34,5 @@ HTML
       };
     };
   });
-        
-    </script>
-</body>
-...
+</script>
 ```
