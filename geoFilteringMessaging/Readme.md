@@ -36,7 +36,7 @@ HTML
   });
 </script>
 ```
-Javascript
+Video JS Plugin
 ```Javascript
 videojs.plugin('geoFilteringMessaging', function (options) {
     var player = this;
