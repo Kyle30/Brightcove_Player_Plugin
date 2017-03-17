@@ -10,10 +10,12 @@
 
 .video-js .vjs-overlay-background {
     background-color: #646464;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(0,0,0,0.8);
     border-radius: 3px;
-    padding: 10px;
+    padding: 6px;
     width: 33%;
+    max-width: 200px;
+    
 }
 
 .video-js .vjs-overlay-top-left {
