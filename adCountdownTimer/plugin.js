@@ -4,7 +4,7 @@ videojs.plugin('adCountDownTimer', function(){
 	var countdownTimer;
 	player.on('ads-ad-started', function(){
 		document.getElementById('ad-overlay').style.fontSize = '1.2em';
-		document.getElementById('ad-overlay').style.color = 'black';
+		document.getElementById('ad-overlay').style.color = 'white';
 		document.getElementById('ad-overlay').style.zIndex = 999;
 		document.getElementById('ad-overlay').style.fontWeight = 600;
 		countdownTimer = setInterval(function (){
