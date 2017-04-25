@@ -28,14 +28,6 @@ videojs.plugin('stillWatching', function() {
       intervalID,
       playlistData = [
         {
-        "name":"Great Blue Heron",
-        "sources":[
-          {
-          "src":"http://solutions.brightcove.com/bcls/assets/videos/Great-Blue-Heron.m3u8",
-          "type":"application/x-mpegURL"
-          }]
-        },
-        {
         "name":"Bird Chickadee",
         "sources":[
           {
