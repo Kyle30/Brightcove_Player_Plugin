@@ -13,13 +13,6 @@ videojs.plugin('stillWatching', function() {
       },
       // reference in overlay message
       eTimerSpan,
-      // references to option elements (for sample only - developers would set these in the options object above)
-      eTimeCheckOption = document.getElementById("timeCheckOption"),
-      eVideoCheckOption = document.getElementById("videoCheckOption"),
-      eTimeOutOption = document.getElementById("timeOutOption"),
-      eVideosSinceLastCheck = document.getElementById("videosSinceLastCheck"),
-      eTimeSinceLastCheck = document.getElementById("timeSinceLastCheck"),
-      eCurrentPosition = document.getElementById("currentPosition"),
       // counters for time and videos elapsed (short-form) and time checks (long-form)
       totalElapsedTime = 0,
       videosPlayed = 0,
