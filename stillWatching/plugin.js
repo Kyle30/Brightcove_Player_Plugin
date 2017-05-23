@@ -10,7 +10,7 @@ videojs.plugin('stillWatching', function () {
                     start: timeCheckPoint,
                     end: 'playing',
                     align: 'top',
-                    content: "Click this message if you are still watching."
+                    content: " 已連續播放1分鐘 , 請休息片刻"
                 }]
             });
             var overlayContainer = document.getElementsByClassName('vjs-overlay')[0];
