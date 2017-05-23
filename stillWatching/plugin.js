@@ -11,7 +11,7 @@ videojs.plugin('stillWatching', function () {
                     end: 'playing',
                     align: 'top',
                     content: "Click this message if you are still watching."
-                        }]
+                }]
             });
             let overlayContainer = document.getElementsByClassName('vjs-overlay')[0];
             overlayContainer.onclick = function () {
