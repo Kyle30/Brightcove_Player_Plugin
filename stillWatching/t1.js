@@ -1,8 +1,8 @@
 videojs.plugin('stillWatching', function () {
-    let player = this;
+    var player = this;
     player.on('loadedmetadata', function(){
       console.log('still watching');
-      let t = player.currentTime();
+      var t = player.currentTime();
       console.log(t);
     });
 });
