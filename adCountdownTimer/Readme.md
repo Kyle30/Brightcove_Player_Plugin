@@ -7,7 +7,7 @@
 ## CSS
 [Brightcove Ima3 Plugin CSS](//players.brightcove.net/videojs-ima3/2/videojs.ima3.min.css)  
 [Plugin.css(Brightcove Overlay Plugin CSS Modified)](https://rawgit.com/Kyle30/Brightcove_Player_Plugin/master/adCountdownTimer/plugin.css)  
-## JSON
+## Name, Options( JSON )
 ima3
 ```JSON
 {
