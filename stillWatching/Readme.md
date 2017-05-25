@@ -10,7 +10,7 @@ overlay
 ```JSON
 {
   "overlays": [{
-    "content": "test",
+    "content": "",
     "align": "bottom-right",
     "start": "0",
     "end": "0"
