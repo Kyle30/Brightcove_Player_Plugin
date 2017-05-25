@@ -2,7 +2,7 @@
 
 ## Javascript
 [Plugin.js](https://rawgit.com/Kyle30/Brightcove_Player_Plugin/master/gifPoster/plugin.js)  
-## JSON
+## Name, Options( JSON )
 gifPoster
 ```JSON
 {
