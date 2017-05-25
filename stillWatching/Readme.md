@@ -1,4 +1,4 @@
-# Are you still watching Plugin
+# Still Watching Plugin
 
 ## Javascript 
 [Brightcove Overlay Plugin JS](//players.brightcove.net/videojs-overlay/1/videojs-overlay.min.js)  
