@@ -26,7 +26,7 @@ overlay
 {
   "overlays": [{
     "content": "<div id='ad-overlay' style='dispaly:inline; font-family: Microsoft JhengHei;'>廣告剩餘: <div id='timeRemaining' style='display:inline'></div>秒</div>",
-    "end": "ads-ad-ended",
+    "end": "playing",
     "start": "ads-ad-started",
     "align": "bottom-right"
   }]
