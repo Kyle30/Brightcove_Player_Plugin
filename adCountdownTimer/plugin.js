@@ -16,4 +16,8 @@ videojs.plugin('adCountDownTimer', function(){
 		document.getElementById('ad-overlay').style.zIndex = -10;
 		clearInterval(countdownTimer);
 	});
+	player.on('adscanceled', function(){
+		document.getElementById('ad-overlay').style.zIndex = -10;
+		clearInterval(countdownTimer);
+	});
 })
